@@ -25,18 +25,22 @@
       <div class="cart-item-line">
         <div class="cart-item-details">
           <div class="cart-item-picture">
-              <img src="//prod-images.BotanicChoice.com/_productimages/liquid extracts/194x350/p000006126-x.jpg">
+            <img src="//prod-images.BotanicChoice.com/_productimages/liquid extracts/194x350/p000006126-x.jpg">
           </div>
           <div class="cart-item-info">
             <div class="cart-item-name">Lemon Balm Liquid Extract</div>
-            <div class="cart-item-subdetails"><span class="cart-item-size">1 oz</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span>Item #1437</span></div>
+            <div class="cart-item-subdetails"><span class="cart-item-size">1 oz</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span>Item
+                #1437</span></div>
             <div class="cart-item-options"><span>Remove</span></div>
           </div>
         </div>
-        <div class="cart-item-quantity">
-          <button class="cart-item-quantity-minus"></button>
-          <input class="cart-item-quantity">
-          <button class="cart-item-quantity-plus"></button>
+        <div class="cart-item-quantity-container">
+          <div class="cart-item-quantity">
+            <button class="cart-item-quantity-minus">-</button>
+            <input class="cart-item-quantity-box">
+            <button class="cart-item-quantity-plus">+</button>
+          </div>
+          <div class="cart-item-quantity-update">Update Quantity</div>
         </div>
         <div class="cart-item-price">
           <div class="cart-item-price-heading">Product Total</div>
@@ -45,8 +49,37 @@
         </div>
       </div>
     </div>
+
+    <div class="cart-checkout">
+      <div class="cart-webcode">
+          <h2>Web Code</h2>
+          <input class="cart-webcode-input">
+          <button class="cart-webcode-submit">APPLY</button>
+      </div>
+      <div class="cart-shipping">
+          <h2>Shipping &amp; Handling</h2>
+          <select class="cart-shipping-select">
+            <option>Standard Shipping - $5.99</option>
+          </select>
+      </div>
+      <div class="cart-totals">
+        <div class="cart-totals-line">
+          <div class="cart-totals-line-desc">Sub-Total</div>
+          <div class="cart-totals-line-price">$4.99</div>
+        </div>
+        <div class="cart-totals-line">
+          <div class="cart-totals-line-desc">Sub-Total</div>
+          <div class="cart-totals-line-price">$4.99</div>
+        </div>
+        <div class="cart-totals-line grand-total">
+          <div class="cart-totals-line-desc">Sub-Total</div>
+          <div class="cart-totals-line-price">$4.99</div>
+        </div>
+      </div>
+      <a class="cart-totals-line-checkout">GO TO CHECKOUT</a>
+    </div>
   </div>
-  
+
   <script src="scripts.js"></script>
 </body>
 
